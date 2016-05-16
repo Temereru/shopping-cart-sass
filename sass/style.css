@@ -1,3 +1,7 @@
+.white-oswald, .price, .add-to-cart {
+  color: white;
+  font-family: Oswald; }
+
 body {
   background-color: #EAEBE7; }
 
@@ -20,8 +24,6 @@ body {
 .price {
   display: table-cell;
   vertical-align: middle;
-  color: white;
-  font-family: Oswald;
   font-size: 20px;
   text-align: center; }
 
@@ -36,8 +38,6 @@ body {
 .add-to-cart {
   display: table-cell;
   vertical-align: middle;
-  color: white;
-  font-family: Oswald;
   font-size: 20px;
   text-align: center;
   cursor: pointer; }

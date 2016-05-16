@@ -1,0 +1,11 @@
+$oswald: Oswald;
+
+@mixin dimensions($width, $height){
+  height: $height;
+  width: $width;
+}
+
+.white-oswald {
+  color: white;
+  font-family: $oswald;
+}

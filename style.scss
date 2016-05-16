@@ -1,3 +1,5 @@
+@import 'declarations';
+
 body {
   background-color: #EAEBE7;
 }
@@ -13,24 +15,21 @@ body {
 }
 
 .pricebox {
-  height: 50px;
-  width: 100px;
+  @include dimensions(100px, 50px);
   position: absolute;
   background-color: #FF5351;
   display: table;
 }
 .price {
+  @extend .white-oswald;
   display: table-cell;
   vertical-align: middle;
-  color: white;
-  font-family: Oswald;
   font-size: 20px;
   text-align: center;
 }
 
 .buybox {
-  height: 50px;
-  width: 100%;
+  @include dimensions(100%, 50px);
   position: absolute;
   background-color: #008cba;
   display: table;
@@ -40,8 +39,7 @@ body {
 .add-to-cart {
   display: table-cell;
   vertical-align: middle;
-  color: white;
-  font-family: Oswald;
+  @extend .white-oswald;
   font-size: 20px;
   text-align: center;
   cursor: pointer;
@@ -49,13 +47,11 @@ body {
 
 .card {
   display: table;
-  height: 100%;
-  width: 100%;
+  @include dimensions(100%, 100%);
 }
 
 .product-overlay {
-  height: 100%;
-  width: 100%;
+  @include dimensions(100%, 100%);
   z-index: 10;
   position: absolute;
 }
@@ -76,7 +72,7 @@ body {
 
 .page-header h1 {
   text-align: center;
-  font-family: Oswald;
+  font-family: $oswald;
   margin-top: 70px;
 }
 
