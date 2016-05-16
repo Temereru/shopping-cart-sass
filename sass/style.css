@@ -21,7 +21,7 @@ body {
   background-color: #FF5351;
   display: table; }
 
-.price {
+.price, .add-to-cart {
   display: table-cell;
   vertical-align: middle;
   font-size: 20px;
@@ -36,10 +36,6 @@ body {
   bottom: 0; }
 
 .add-to-cart {
-  display: table-cell;
-  vertical-align: middle;
-  font-size: 20px;
-  text-align: center;
   cursor: pointer; }
 
 .card {

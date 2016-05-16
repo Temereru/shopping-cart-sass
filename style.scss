@@ -37,11 +37,7 @@ body {
 }
 
 .add-to-cart {
-  display: table-cell;
-  vertical-align: middle;
-  @extend .white-oswald;
-  font-size: 20px;
-  text-align: center;
+  @extend .price;
   cursor: pointer;
 }
 
